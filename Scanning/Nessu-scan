@@ -1,0 +1,10 @@
+
+use the Nessu tool: https://www.tenable.com/products/nessus
+
+Activation code: EF78-E0D9-B409-F166-FA4A 
+
+ You can start Nessus by typing /etc/init.d/nessusd start
+ - Then go to https://kali:8834/ to configure your scanner
+
+user name: Nessus-admin
+password: admin
